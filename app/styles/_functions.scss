@@ -1,0 +1,19 @@
+/**
+ * PX to VW
+ * @param  float $px-vw - пиксели, которые преобразуем в vw
+ * @param  float $base-vw: 1440px - ширина экрана
+ * @return float - значение vw
+ */
+@function vw($px-vw, $base-vw: 1440px) {
+  @return ($px-vw * 100vw) / $base-vw;
+}
+
+
+/**
+ * PX to REM
+ * @param  int $px-rem - пиксели, которые преобразуем в rem
+ * @return float - значение rem
+ */
+@function rem($px-rem) {
+  @return ($px-rem / 16px) + rem;
+}

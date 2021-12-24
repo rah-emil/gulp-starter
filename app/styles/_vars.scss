@@ -1,0 +1,22 @@
+// FONTS
+$userfont: 'Circe', sans-serif;
+
+
+// COLORS
+$white: #ffffff;
+$black: #17191E;
+$grey: rgba($white, .4);
+$dark: #22252D;
+$primary: #4069FF;
+
+
+// BREAKPOINTS
+$breakpoints: (
+  xxl: 2560px,
+  xl: 1920px,
+  lg: 1440px,
+  md: 992px,
+  sm: 768px,
+  xs: 576px,
+  xxs: 320px
+);
